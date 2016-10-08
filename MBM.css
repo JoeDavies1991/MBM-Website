@@ -123,3 +123,22 @@ a {
 
 }
 /* Navigation Bar Styling */
+
+/*   image resizing */
+
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+
+img {
+    width: 50%;
+    height: auto;
+}

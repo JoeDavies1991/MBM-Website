@@ -33,27 +33,23 @@ Restricting carousel height*/
 
 /*   image resizing */
 
+.container {
+  width: 300px;
+  border: dashed blue 1px;
+}
+
+.container.img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 .imgflexible {
     max-width: 100%;
     height: auto;
     width: auto \9; /* ie8 */
 }
 
-.container {
-    width: 100px;
-    height: 60px;
-}
 
-/* resize images*/
-.container img {
-    width: 50%;
-    height: auto;
-}
-
-.img {
-    width: 500%;
-    height: auto;
-}
 
 .input-group[class*="col-"] {
     padding-right: 15px;

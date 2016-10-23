@@ -8,51 +8,48 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtwqifIEArrZg2LFylm0H0NiE7Eju8CyM"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            function init_map1() {
+                var myLocation = new google.maps.LatLng(55.952480, -3.208834);
+                var mapOptions = {
+                    center: myLocation,
+                    zoom: 16
+                };
+                var marker = new google.maps.Marker({
+                    position: myLocation,
+                    title: "Property Location"
+                });
+                var map = new google.maps.Map(document.getElementById("map1"),
+                        mapOptions);
+                marker.setMap(map);
+            }
 
-
-
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-<script type="text/javascript">
-    jQuery(function ($) {
-        function init_map1() {
-            var myLocation = new google.maps.LatLng(55.952480, 3.208834);
-            var mapOptions = {
-                center: myLocation,
-                zoom: 16
-            };
-            var marker = new google.maps.Marker({
-                position: myLocation,
-                title: "Property Location"
-            });
-            var map = new google.maps.Map(document.getElementById("map1"),
-                    mapOptions);
-            marker.setMap(map);
+            init_map1();
+        });
+        async
+    </script>
+    <style>
+        .map {
+            min-width: 300px;
+            min-height: 300px;
+            width: 100%;
+            height: 100%;
         }
 
-        init_map1();
-    });
-    async
-</script>
-    <style>
-    .map {
-        min-width: 300px;
-        min-height: 300px;
-        width: 100%;
-        height: 100%;
-    }
-
-    .header {
-        background-color: #F5F5F5;
-        color: #36A0FF;
-        height: 70px;
-        font-size: 27px;
-        padding: 10px;
-    }
+        .header {
+            background-color: #F5F5F5;
+            color: #36A0FF;
+            height: 70px;
+            font-size: 27px;
+            padding: 10px;
+        }
     </style>
-
 
 
 </head>
@@ -235,11 +232,6 @@
 
 
 </section>
-
-
-
-
-
 
 
 </body>

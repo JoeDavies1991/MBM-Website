@@ -11,7 +11,7 @@ div.style-picture {
     color: white;
     padding: 200px;
     background-size: cover;
-    background: url(../Images/header-bg1.jpg) no-repeat;
+    background: url(../MBM Website/Images/header-bg1.jpg) no-repeat;
     background-size: cover;
 
 }
@@ -128,4 +128,10 @@ a {
 
 body {
     background-color: #003399;
+}
+
+font {
+
+    colour: white;
+
 }

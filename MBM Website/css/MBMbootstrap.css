@@ -80,6 +80,13 @@ Restricting carousel height*/
 }
 }
 
-body {
+
+.font {
     background-color: #003399;
+
+}
+*/
+
+.text {
+    colour: white;
 }

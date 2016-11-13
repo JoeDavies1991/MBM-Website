@@ -18,3 +18,10 @@
     max-height: 150px;
     max-width: 150px;
 }
+
+.picture-size {
+
+    max-width: 50%;
+    max-height: auto;
+
+}

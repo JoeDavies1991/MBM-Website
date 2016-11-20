@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../Images//verity.jpg') no-repeat center center scroll;
+    background: url('../Images//Verity&Joe.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -29,6 +29,19 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.header-image-button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../Images//background.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 
 .headline {
     padding: 120px 0;
